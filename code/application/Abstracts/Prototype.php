@@ -11,6 +11,7 @@ namespace Phpno1\DesignPatterns\abstracts;
 
 abstract class Prototype
 {
+
     /**
      * @var string
      */

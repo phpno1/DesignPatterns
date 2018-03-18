@@ -9,10 +9,14 @@
             "email": "1143990204@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "phpunit/phpunit": "^7.0"
+    },
     "autoload": {
         "psr-4": {
             "Phpno1\\DesignPatterns\\": "application/"
         }
+    },
+    "require-dev": {
     }
 }

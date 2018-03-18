@@ -9,7 +9,9 @@
 namespace Phpno1\DesignPatterns\Controller\Prototype;
 
 
-class BookController
+use Phpno1\DesignPatterns\abstracts\Prototype;
+
+class BookPrototype extends Prototype
 {
     protected $category = 'book';
 
