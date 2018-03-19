@@ -1,0 +1,23 @@
+{
+  "name": "phpno1/design_patterns",
+  "description": "常用设计模式Design patterns",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yaha",
+      "email": "1143990204@qq.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Phpno1\\DesignPatterns\\": "src/application/",
+      "Phpno1\\Test\\": "test/"
+    }
+  },
+  "require-dev": {
+  }
+}

@@ -6,7 +6,7 @@
  * Time: 上午12:05
  */
 
-namespace Phpno1\DesignPatterns\Test;
+namespace Phpno1\Test;
 
 
 use Phpno1\DesignPatterns\Controller\Prototype\ApplePrototype;

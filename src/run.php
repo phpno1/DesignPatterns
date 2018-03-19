@@ -6,8 +6,9 @@
  * Time: 下午2:42
  */
 
-require_once "./vendor/autoload.php";
 
-$prototype_test = new Phpno1\DesignPatterns\Test\TestPrototype();
+require_once __DIR__.'/../vendor/autoload.php';
+
+$prototype_test = new \Phpno1\Test\TestPrototype();
 
 $prototype_test->testCanGetFooBook();
