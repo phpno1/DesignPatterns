@@ -15,7 +15,7 @@
   "autoload": {
     "psr-4": {
       "Phpno1\\DesignPatterns\\": "src/application/",
-      "Phpno1\\Test\\": "test/"
+      "Phpno1\\Test\\": "tests/"
     }
   },
   "require-dev": {
